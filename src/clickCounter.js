@@ -12,8 +12,12 @@ class ClickCounter extends Component {
     }
 
     render(){
+        const conterStyle = {
+            margin:'16px',
+            backgroundColor:'red'
+        }
         return (
-            <div>
+            <div style={conterStyle}>
                 <button onClick={this.onClickButton}>
                     Click Me
                 </button>
